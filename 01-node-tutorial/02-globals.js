@@ -1,10 +1,10 @@
 // GLOBALS  - NO WINDOW !!!!
 
-// __dirname  - path to current directory
+// __dirname  - 현재 폴더 위치
 // __filename - file name
 // require    - function to use modules (CommonJS)
-// module     - info about current module (file)
-// process    - info about env where the program is being executed
+// module     - 현재 module에 대한 정보 (file)
+// process    - 프로그램이 실행되는 곳에 대한 env info
 
 console.log(__dirname)
 setInterval(() => {

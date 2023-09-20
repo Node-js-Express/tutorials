@@ -1,7 +1,7 @@
 // local
 const secret = 'SUPER SECRET'
 // share
-const john = 'john'
-const peter = 'peter'
+export const john = 'john'
+export const peter = 'peter'
 
-module.exports = { john, peter }
+// module.exports = { john, peter } require 쓸 때 사용

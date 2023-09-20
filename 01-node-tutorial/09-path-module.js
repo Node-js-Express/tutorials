@@ -1,4 +1,5 @@
 const path = require('path')
+// import path from 'path';
 
 console.log(path.sep)
 
@@ -10,3 +11,5 @@ console.log(base)
 
 const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt')
 console.log(absolute)
+
+// 파일 path를 관리하는 방식에 대한 로직입니다.
