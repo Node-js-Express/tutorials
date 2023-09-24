@@ -1,6 +1,6 @@
-// local
+// 이 파일 내에서만 사용할 수 있습니다.
 const secret = 'SUPER SECRET'
-// share
+// 외부 파일에서도 사용할 수 있습니다.
 export const john = 'john'
 export const peter = 'peter'
 

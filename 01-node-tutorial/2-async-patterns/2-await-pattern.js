@@ -1,5 +1,9 @@
+/*
+    try catch 문이랑 async, await를 같이 사용하거나,
+    Promise라는 객체를 만들어서 .then(), .catch()와 같이 사용합니다.
+*/
+
 import { readFile, writeFile } from 'fs/promises';
-// const util = require('util')
 // const readFilePromise = util.promisify(readFile)
 // const writeFilePromise = util.promisify(writeFile)
 
