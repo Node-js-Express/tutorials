@@ -22,6 +22,5 @@ node app.js
 
 ```
 npm start
-
 ```
 위의 명령어를 통하면 nodemon으로 app.js를 실행할 수 있습니다.
