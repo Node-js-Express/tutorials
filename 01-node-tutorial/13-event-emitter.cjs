@@ -11,3 +11,4 @@ customEmitter.on('response', () => {
 })
 
 customEmitter.emit('response', 'john', 34)
+
