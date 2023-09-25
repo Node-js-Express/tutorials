@@ -1,8 +1,8 @@
 # Node and Express Tutorial
 
- Node and Express Tutorial 입니다. 앞으로 해나가시는데 이 정도만 하셔도 매우 원활할 것 입니다.
+ Node and Express Tutorial 입니다. 앞으로 해나가시는데 이 정도를 알고 계시면, 매우 원활할 것 입니다.
 
-OT 이후 해당 내용에 대해서 다시 다룰 예정이므로, 예습 및 복습을 진행해주시면 이해력 증진 실력 쑥쑥 할 겁니다.
+수업 후 복습을 진행해주시면 이해력 증진 실력 쑥쑥 할 겁니다.
 
 화이팅~!!
 
@@ -23,4 +23,5 @@ node app.js
 ```
 npm start
 ```
-위의 명령어를 통하면 nodemon으로 app.js를 실행할 수 있습니다.
+위의 명령어를 입력하시면, package.json에서 "scripts"에 정의되어 있는 명령어를 보고 실행해줍니다.
+현재는 nodemon app.js으로 정의되어 있으므로, 해당 명령어를 실행해줍니다.
