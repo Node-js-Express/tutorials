@@ -17,5 +17,5 @@ export default router
  *  {
     "name" : "john"
     }
-    john은 사전에 등록되어 있는 예제입니다.
+    john은 사전에 등록되어 있는 데이터값 입니다.
  */

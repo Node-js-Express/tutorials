@@ -1,4 +1,5 @@
 /*
+    보통 비동기에 대해서 처리할 때,
     try catch 문이랑 async, await를 같이 사용하거나,
     Promise라는 객체를 만들어서 .then(), .catch()와 같이 사용합니다.
 */
@@ -23,18 +24,3 @@ const start = async () => {
 }
 
 start()
-
-// const getText = (path) => {
-//   return new Promise((resolve, reject) => {
-//     readFile(path, 'utf8', (err, data) => {
-//       if (err) {
-//         reject(err)
-//       } else {
-//         resolve(data)
-//       }
-//     })
-//   })
-// }
-// getText('./content/first.txt')
-//   .then((result) => console.log(result))
-//   .catch((err) => console.log(err))
